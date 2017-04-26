@@ -22,3 +22,13 @@ Logical changes are determined by programmers. To have one commit per logical
 change, programmers should specify in the staging area which changes
 (together as a logical change) to be committed. Then, programmers can commit
 the logical change in the staging area.
+
+
+-- 4. What are some situations when branches would be helpful
+in keeping your history organized? How would branches help?
+
+When you want to experiment a new feature, or try a new version,
+you can create a new branch to represent the commits in these new
+situations. You can easily check out different branches to show code
+in different situations while maintaining code in those different
+situations.
