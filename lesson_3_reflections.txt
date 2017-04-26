@@ -39,7 +39,13 @@ stored locally?
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+    If I don't use Git or GitHub to collaborate, I'd probably change and make
+    comments in individual files and send them over to collaborators for
+    review. This would work if there aren't too many files to make changes
+    and there aren't too many changes to make. However, using Git and GitHub
+    makes collaboration over modifications more organised and easy to do by
+    just using command line and text editor rather than, say, also sending
+    modified files to collaborators via email.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
