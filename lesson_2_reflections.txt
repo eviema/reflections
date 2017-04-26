@@ -32,3 +32,10 @@ you can create a new branch to represent the commits in these new
 situations. You can easily check out different branches to show code
 in different situations while maintaining code in those different
 situations.
+
+
+-- 5. How do the diagrams help you visualize the branch structure?
+
+It separates all commits according to their branches. Also,
+it shows the commits from which the new branches are created, and thus
+links all branches together. 
