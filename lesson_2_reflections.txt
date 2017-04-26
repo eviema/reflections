@@ -48,3 +48,15 @@ The result is that a new commit is created as the new tip of
 the branch merged into, which contains all changes made in both
 branches since their common origin.
 The diagram shows clearly what it is like before and after the merge.
+
+
+-- 7. What are the pros and cons of Git’s automatic merging vs.
+always doing merges manually?
+
+pros: Git's automatic merging saves time when the two branches to be merged
+do not have different versions of the same section(s) (e.g. function(s)) and
+Git can figure out how to merge everything without the help of programmers.
+
+cons: Git may run into situations where it needs to warn programmers that
+a merge conflict occurs and waits for manual resolutions and commits
+before finalising the merge. 
