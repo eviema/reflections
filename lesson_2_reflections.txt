@@ -38,4 +38,13 @@ situations.
 
 It separates all commits according to their branches. Also,
 it shows the commits from which the new branches are created, and thus
-links all branches together. 
+links all branches together.
+
+
+-- 6. What is the result of merging two branches together?
+Why do we represent it in the diagram the way we do?
+
+The result is that a new commit is created as the new tip of
+the branch merged into, which contains all changes made in both
+branches since their common origin.
+The diagram shows clearly what it is like before and after the merge.
