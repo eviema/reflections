@@ -9,12 +9,24 @@ automatically stay up-to-date with your remote repository?
 
     You want to pull changes from the remote repository only if you're sure
     you want those changes to be added to your local repository. Automatic
-    pulling can't determine that for you. 
+    pulling can't determine that for you.
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-    Fill in your answer here
+    Forks are used on GitHub when you don't have the permission to modify
+    someone else's repository but want to build on that repository and
+    make changes. You fork a branch of the other person's repository so that
+    you have a copy on your GitHub account from which you can work
+    to make changes.
+
+    Clones are used to copy a branch of a repository that is either 
+    on GitHub or on your local computer to your local computer.
+
+    Branches are commit chains with different commit histories. You can access
+    a particular commit/version of your program by checkout a branch and
+    checkout a commit in there.
+
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
