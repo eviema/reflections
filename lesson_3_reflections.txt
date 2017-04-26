@@ -20,7 +20,7 @@ use one instead of another?
     you have a copy on your GitHub account from which you can work
     to make changes.
 
-    Clones are used to copy a branch of a repository that is either 
+    Clones are used to copy a branch of a repository that is either
     on GitHub or on your local computer to your local computer.
 
     Branches are commit chains with different commit histories. You can access
@@ -31,7 +31,10 @@ use one instead of another?
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    So that when a collaborator makes new changes on GitHub, we can fetch
+    the remote with this latest commit and update the local remote. Then we
+    can use the updated local remote to compare with changes made locally and
+    merge all the changes, or in other words, finalise pulling.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
