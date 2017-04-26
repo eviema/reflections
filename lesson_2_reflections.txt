@@ -1,0 +1,6 @@
+-- 1. What happens when you initialise a repository? Why do you need to do it?
+
+When you initialise a repository, a hidden metadata file called .git
+is created to keep track of the history of the repository. You need to
+do this to make sure this directory becomes a repository which contains
+history data.
