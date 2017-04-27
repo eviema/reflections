@@ -50,4 +50,10 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    I want to make changes in a separate branch when the current master branch
+    is working well and I want to add a new feature or make some modifications
+    without risking to lose the working version. Also, creating a separate
+    branch and sharing it with collaborators on GitHub allows me to get feedback
+    on the changes that I've made. If we're sure the changes are good, one
+    of us can merge the separate branch into master and have a new working
+    version of production quality. 
